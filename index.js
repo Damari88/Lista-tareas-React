@@ -6,7 +6,10 @@ const data = require("./data.js");
 let ListaTareas = [
     {id: "1", nombre: "React", estado: "realizada", fechaeEntrega:20/10, module:2},
     {id: "2", nombre: "JS", estado: "en proceso", fechaeEntrega:14/6, module:1},
-    {id: "3", nombre: "CSS", estado: "terminada", fechaeEntrega:20/11, module:3}
+    {id: "3", nombre: "CSS", estado: "terminada", fechaeEntrega:20/11, module:3},
+    {id: "4", nombre: "Ingles", estado: "terminada", fechaeEntrega:25/10, module:4},
+    {id: "3", nombre: "Math", estado: "en proceso", fechaeEntrega:21/12, module:5},
+    {id: "6", nombre: "Nodejs",  estado:"terminada",fechaEntrega: 15/10, modulo: 6}
 ];
 
 app.use(express.json());
